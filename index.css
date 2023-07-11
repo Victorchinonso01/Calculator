@@ -149,7 +149,20 @@ main {
 
 
 @media screen and (max-width: 600px) {
+
+  main {
+    overflow-y: hidden;
+  }
   .calculator {
     width: 80vw;
   }
+
+  .history {
+    width: 80%;
+  }
+
+  .close {
+    position: absolute;
+    width: 75vw;
+}
 }
